@@ -128,12 +128,6 @@ const showListData = (listData, listContainer) => {
 
 // Display the CV data in the corresponding elements
 const displayCV = (userData) => {
-    // nameDsp.innerHTML = userData.firstname + " " + userData.middlename + " " + userData.lastname;
-    // phonenoDsp.innerHTML = userData.phoneno;
-    // emailDsp.innerHTML = userData.email;
-    // addressDsp.innerHTML = userData.address;
-    // designationDsp.innerHTML = userData.designation;
-    // summaryDsp.innerHTML = userData.summary;
     showListData(userData.summary,summaryDsp)
     showListData(userData.designation,designationDsp)
     showListData(userData.email,emailDsp)
